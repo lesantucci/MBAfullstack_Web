@@ -1,0 +1,26 @@
+.caixa-texto {
+    padding: 10px;
+}
+
+.caixa-texto label {
+    position: sticky;
+}
+
+.caixa-texto input {
+    display: block;
+    border: solid;
+    text-align: right;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    border-color: #d1d1d1;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.05);
+}
+
+.caixa-texto input:focus{
+    outline: 0px;
+    border-color: #2a6dfd;
+    box-shadow: 2px 2px 2px 1px #2a6dfd1a;
+  }
+
